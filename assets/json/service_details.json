@@ -1,0 +1,160 @@
+{
+  "return": {
+    "collectionAccount": "0011150579",
+    "collectionID": 30521,
+    "collectionName": "IRECHARGE",
+    "collectionType": "RECEIPT",
+    "fields": [
+      {
+        "ctrlField": false,
+        "fieldId": "21023~1",
+        "fieldType": "Text",
+        "isValidationFiled": true,
+        "label": "Receiver No",
+        "mandatory": true,
+        "pinField": false,
+        "position": 1,
+        "validated": false,
+        "validationFieldPosition": 1
+      },
+      {
+        "ctrlField": false,
+        "fieldId": "21024~2",
+        "fieldType": "Lookup",
+        "isValidationFiled": true,
+        "label": "Billers",
+        "lookupItems": [
+          {
+            "code": "AEDC",
+            "description": "Abuja Electricity Distribution Company Prepaid"
+          },
+          {
+            "code": "AEDC_Postpaid",
+            "description": "Abuja Electricity Distribution Company Postpaid"
+          },
+          {
+            "code": "Kaduna_Electricity_Disco",
+            "description": "Kaduna Electricity Distribution Company Prepaid"
+          },
+          {
+            "code": "Kaduna_Electricity_Disco_Postpaid",
+            "description": "Kaduna Electricity Distribution Company Postpaid"
+          },
+          {
+            "code": "Jos_Disco",
+            "description": "Jos Electricity Distribution Company"
+          },
+          {
+            "code": "Jos_Disco_Postpaid",
+            "description": "Jos Electricity Distribution Company Postpaid"
+          },
+          {
+            "code": "Eko_Prepaid",
+            "description": "Eko Distribution Company Prepaid"
+          },
+          {
+            "code": "Eko_Postpaid",
+            "description": "Eko Distribution Company Postpaid"
+          },
+          {
+            "code": "PhED_Electricity",
+            "description": "Port Harcourt Electricity Prepaid"
+          },
+          {
+            "code": "Ikeja_Token_Purchase",
+            "description": "Ikeja Distribution Company Prepaid"
+          },
+          {
+            "code": "Kano_Electricity_Disco",
+            "description": "Kano Distribution Company Prepaid"
+          },
+          {
+            "code": "Enugu_Electricity_Distribution_Prepaid",
+            "description": "Enugu Distribution Company Prepaid"
+          }
+        ],
+        "mandatory": true,
+        "pinField": false,
+        "position": 2,
+        "validated": false,
+        "validationFieldPosition": 2
+      },
+      {
+        "ctrlField": false,
+        "fieldId": "21025~3",
+        "fieldType": "Text",
+        "isValidationFiled": true,
+        "label": "Amount",
+        "mandatory": true,
+        "pinField": false,
+        "position": 3,
+        "validated": false,
+        "validationFieldPosition": 3
+      },
+      {
+        "ctrlField": false,
+        "fieldId": "21027~4",
+        "fieldType": "Text",
+        "isValidationFiled": false,
+        "label": "Trans Id",
+        "mandatory": true,
+        "pinField": false,
+        "position": 4,
+        "validated": false,
+        "validationFieldPosition": 0
+      },
+      {
+        "ctrlField": false,
+        "fieldId": "21028~5",
+        "fieldType": "Text",
+        "isValidationFiled": false,
+        "label": "Customer Name",
+        "mandatory": true,
+        "pinField": false,
+        "position": 5,
+        "validated": false,
+        "validationFieldPosition": 0
+      },
+      {
+        "ctrlField": false,
+        "fieldId": "21029~6",
+        "fieldType": "Text",
+        "isValidationFiled": false,
+        "label": "Customer Address",
+        "mandatory": false,
+        "pinField": false,
+        "position": 6,
+        "validated": false,
+        "validationFieldPosition": 0
+      },
+      {
+        "ctrlField": false,
+        "fieldId": "21030~7",
+        "fieldType": "Text",
+        "isValidationFiled": false,
+        "label": "Units",
+        "mandatory": false,
+        "pinField": false,
+        "position": 7,
+        "validated": false,
+        "validationFieldPosition": 0
+      },
+      {
+        "ctrlField": false,
+        "fieldId": "21031~8",
+        "fieldType": "Text",
+        "isValidationFiled": false,
+        "label": "Meter Token",
+        "mandatory": false,
+        "pinField": false,
+        "position": 8,
+        "validated": false,
+        "validationFieldPosition": 0
+      }
+    ],
+    "hasExtService": false,
+    "minimumAmount": 0.0,
+    "validationRequired": true,
+    "webserviceValidationFlow": "ws_irecharge"
+  }
+}

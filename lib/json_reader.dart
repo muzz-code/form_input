@@ -1,0 +1,5 @@
+class JsonReader {
+  void someMethod () {
+
+  }
+}

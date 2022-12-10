@@ -1,0 +1,29 @@
+{
+  "services": [
+    {
+      "isAggregated": "N",
+      "serviceID": "N100",
+      "serviceName": "7UP CALABAR DEALERS"
+    },
+    {
+      "isAggregated": "N",
+      "serviceID": "N101",
+      "serviceName": "ST JOHN COLLEGE"
+    },
+    {
+      "isAggregated": "N",
+      "serviceID": "N102",
+      "serviceName": "TEASY INTERN CO LTD"
+    },
+    {
+      "isAggregated": "N",
+      "serviceID": "N30521",
+      "serviceName": "IRECHARGE"
+    },
+    {
+      "isAggregated": "Y",
+      "serviceID": "Y1",
+      "serviceName": "AIRTIME RECHARGE"
+    }
+  ]
+}
