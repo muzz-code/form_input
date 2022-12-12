@@ -16,6 +16,11 @@ class TransactionDetailsPage extends StatelessWidget {
 
   final _formKey = GlobalKey<FormState>();
 
+  /// saves the input of the form when the submit is triggered
+  void _saveForm () {
+    _formKey.currentState?.save();
+  }
+
   TransactionDetailsPage({Key? key}) : super(key: key);
 
   @override
@@ -72,6 +77,7 @@ class TransactionDetailsPage extends StatelessWidget {
                               if (_formKey.currentState!.validate()){
                                 _formKey.currentState!.save();
                               }
+                              _saveForm;
                             },
                             child: const Text('submit'))),
                   )
